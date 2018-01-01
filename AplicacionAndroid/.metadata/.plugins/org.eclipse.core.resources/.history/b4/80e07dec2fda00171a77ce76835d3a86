@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Principal</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bfactorial">FACTORIAL</string>
+    <string name="bsumatoria">SUMATORIA</string>
+    <string name="btriangulo">TRIANGULO</string>
+    <string name="bsalir">SALIR</string>
+    <string name="title_activity_factorial">Factorial</string>
+    <string name="tnumero">INGRESE NUMERO:</string>
+    <string name="tfactorial">EL FACTORIAL ES:</string>
+    <string name="title_activity_sumatoria">Suma de Numeros</string>
+
+</resources>

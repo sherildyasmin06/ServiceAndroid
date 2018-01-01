@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo03"
+    android:gravity="center_vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Principal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnfactorial"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fondobotones"
+            android:text="@string/bfactorial"
+            android:textColor="#58FAF4"
+            android:textSize="@dimen/tamanobotones"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnsumatoria"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fondobotones"
+            android:text="@string/bsumatoria"
+            android:textColor="#58FAF4"
+            android:textSize="@dimen/tamanobotones"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btntriangulo"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fondobotones"
+            android:text="@string/btriangulo"
+            android:textColor="#58FAF4"
+            android:textSize="@dimen/tamanobotones"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnsalir"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fondobotones"
+            android:text="@string/bsalir"
+            android:textColor="#58FAF4"
+            android:textSize="@dimen/tamanobotones"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

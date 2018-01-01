@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tamanobotones">30dp</dimen>
+    <drawable name="fondobotones">@drawable/fondo01</drawable>
+    <drawable name="fondofactorial">@drawable/fondo02</drawable>
+    <color name="colortextview">#FFFFFF</color>
+    <dimen name="tamanotextview">20dp</dimen>
+    <color name="colorcuadros">#ffff00</color>
+    <dimen name="tamanocuadros">20dp</dimen>
+    <drawable name="fondoboton01">@drawable/nuevo</drawable>
+    <drawable name="fondoboton02">@drawable/calcular</drawable>
+    <drawable name="fondoboton03">@drawable/salir</drawable>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="org.ksoap2.serialization.SoapObject"/>
+<fullyQualifiedTypeName name="org.ksoap2.serialization.SoapSerializationEnvelope"/>
+<fullyQualifiedTypeName name="org.ksoap2.SoapEnvelope"/>
+<fullyQualifiedTypeName name="org.ksoap2.transport.HttpsTransportSE"/>
+<fullyQualifiedTypeName name="org.ksoap2.transport.HttpTransportSE"/>
+<fullyQualifiedTypeName name="org.ksoap2.serialization.SoapPrimitive"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+</qualifiedTypeNameHistroy>

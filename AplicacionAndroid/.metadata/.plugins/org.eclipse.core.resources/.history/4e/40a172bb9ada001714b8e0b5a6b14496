@@ -1,0 +1,67 @@
+package com.aplicaservicio01;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class Sumatoria extends Activity {
+	EditText txtnum1,txtnum2,txtnum3,txtsumatoria;
+	Button btnnuevo,btncalcular,btnsalir;
+	String rs;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_sumatoria);
+		txtnum1=(EditText)findViewById(R.id.tnum1);
+		txtnum2=(EditText)findViewById(R.id.tnum2);
+		txtnum3=(EditText)findViewById(R.id.tnum3);
+		btnnuevo=(Button)findViewById(R.id.btnnuevo2);
+		btncalcular=(Button)findViewById(R.id.btncalcular2);
+		btnsalir=(Button)findViewById(R.id.btnsalir2);
+		
+        btnnuevo.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				txtnum1.setText("");
+				txtnum2.setText("");
+				txtnum3.setText("");
+				txtsumatoria.setText("");
+				txtnum1.requestFocus();
+			}
+		});
+         btncalcular.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				
+				
+				
+				
+			}
+		});
+ 
+      btnsalir.setOnClickListener(new View.OnClickListener() {
+		
+		@Override
+		public void onClick(View arg0) {
+			// TODO Auto-generated method stub
+			finish();
+		}
+	});
+        		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.sumatoria, menu);
+		return true;
+	}
+
+}
